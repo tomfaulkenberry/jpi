@@ -6,9 +6,9 @@ title: Home
 
 <section class="home-hero">
   <div>
-    <p class="eyebrow">Current and archival undergraduate scholarship</p>
+    <p class="eyebrow">Refereed undergraduate scholarship in psychology</p>
     <h1>Journal of Psychological Inquiry</h1>
-    <p class="lead">A clean, code-first journal website built for straightforward maintenance on GitHub Pages.</p>
+    <p class="lead"><em>Journal of Psychological Inquiry</em> is a refereed journal dedicated to showcasing undergraduate work in psychology and supporting emerging scholars across a wide range of psychological topics, methods, and perspectives.</p>
     <div class="button-row">
       <a class="button" href="{{ '/submissions/' | relative_url }}">Submit a manuscript</a>
       <a class="button button-secondary" href="{{ '/archives/' | relative_url }}">Browse archives</a>
@@ -17,10 +17,10 @@ title: Home
   <aside class="hero-panel card">
     <p class="eyebrow">At a glance</p>
     <ul class="checklist">
-      <li>Static GitHub Pages deployment</li>
-      <li>One shared layout system</li>
-      <li>Issue archive generated from collection files</li>
-      <li>Minimal CSS, easy to edit by hand</li>
+      <li>Refereed journal for undergraduate scholarship</li>
+      <li>Rolling submissions</li>
+      <li>Multiple article types welcomed</li>
+      <li>Current and archived issues available online</li>
     </ul>
   </aside>
 </section>
@@ -28,18 +28,18 @@ title: Home
 <section class="feature-grid">
   <article class="card">
     <p class="eyebrow">About the journal</p>
-    <h2>Focused, readable, and professional</h2>
-    <p>This starter emphasizes a restrained editorial look: clear typography, stable navigation, and an issue-first archive structure that will age well over time.</p>
+    <h2>Undergraduate research in psychology</h2>
+    <p>JPI provides a professional venue for undergraduate scholarship in psychology, including empirical studies, literature reviews, historical work, and other forms of student-centered inquiry.</p>
   </article>
   <article class="card">
     <p class="eyebrow">For authors</p>
-    <h2>Submission information is easy to find</h2>
-    <p>Core submission details, article types, process expectations, and policy links live in predictable places rather than being buried in uploaded PDFs.</p>
+    <h2>Clear submission guidance</h2>
+    <p>Authors can find submission requirements, article types, review expectations, and policy information in one place, with links to current guidelines and the journal’s submission process.</p>
   </article>
   <article class="card">
-    <p class="eyebrow">For editors</p>
-    <h2>Update the site with simple files</h2>
-    <p>Add a new issue by uploading the PDF and creating a single Markdown record in <code>_issues/</code>. The archive page updates automatically.</p>
+    <p class="eyebrow">Archives</p>
+    <h2>Browse past and current issues</h2>
+    <p>The archive provides issue pages, tables of contents, and downloadable PDFs so readers can easily explore the journal’s history and recent publications.</p>
   </article>
 </section>
 
@@ -48,7 +48,7 @@ title: Home
   <div>
     <p class="eyebrow">Featured issue</p>
     <h2>{{ featured_issue.title }}</h2>
-    <p class="lead">Volume {{ featured_issue.volume }}, Number {{ featured_issue.number }} · {{ featured_issue.season }} {{ featured_issue.year }}</p>
+    <p class="lead">Volume {{ featured_issue.volume }}, Number {{ featured_issue.number }} ({{ featured_issue.year }})</p>
     <p>{{ featured_issue.summary }}</p>
     <div class="button-row">
       <a class="button" href="{{ featured_issue.url | relative_url }}">View issue page</a>
@@ -60,23 +60,16 @@ title: Home
 
 <section class="home-columns">
   <article class="card">
-    <p class="eyebrow">Editorial workflow</p>
-    <h2>Recommended maintenance pattern</h2>
-    <ol>
-      <li>Update static pages such as editorial board and submissions in Markdown.</li>
-      <li>Add new issue metadata in <code>_issues/</code>.</li>
-      <li>Upload issue PDFs into <code>assets/pdf/</code>.</li>
-      <li>Push changes to GitHub for GitHub Pages to publish.</li>
-    </ol>
+    <p class="eyebrow">Editorial information</p>
+    <h2>Board, policies, and submission standards</h2>
+    <p>Learn more about the journal’s editorial board, submission expectations, authorship requirements, and publication policies.</p>
+    <p><a class="button button-secondary" href="{{ '/editorial-board/' | relative_url }}">Editorial Board</a></p>
   </article>
   <article class="card">
-    <p class="eyebrow">Suggested next steps</p>
-    <h2>What to customize first</h2>
-    <ul>
-      <li>Replace placeholder copy with the journal’s official scope and submission language.</li>
-      <li>Add the complete archive of past issues.</li>
-      <li>Insert the real editorial board and office contact details.</li>
-      <li>Point the site to a custom domain if desired.</li>
-    </ul>
+    <p class="eyebrow">Contact</p>
+    <h2>Questions about the journal?</h2>
+    <p>For questions about submissions, editorial matters, or the journal’s operations, visit the contact page for current information.</p>
+    <p><a class="button button-secondary" href="{{ '/contact/' | relative_url }}">Contact</a></p>
   </article>
 </section>
+
