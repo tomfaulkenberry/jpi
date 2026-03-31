@@ -1,0 +1,24 @@
+title: Journal of Psychological Inquiry
+description: A refereed journal showcasing undergraduate scholarship in psychology.
+baseurl: "/jpi"
+url: "https://YOUR-USERNAME.github.io"
+markdown: kramdown
+permalink: pretty
+
+collections:
+  issues:
+    output: true
+    permalink: /issues/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "issues"
+    values:
+      layout: issue
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+plugins: []

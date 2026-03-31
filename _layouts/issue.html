@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<article class="issue-shell">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <span aria-hidden="true">/</span>
+    <a href="{{ '/archives/' | relative_url }}">Archives</a>
+    <span aria-hidden="true">/</span>
+    <span>{{ page.title }}</span>
+  </nav>
+
+  <section class="issue-hero card">
+    <div>
+      <p class="eyebrow">Issue Record</p>
+      <h1>{{ page.title }}</h1>
+      <p class="lead">Volume {{ page.volume }}, Number {{ page.number }} · {{ page.season }} {{ page.year }}</p>
+      {% if page.editor_note %}
+      <p>{{ page.editor_note }}</p>
+      {% endif %}
+      <div class="button-row">
+        {% if page.pdf %}
+        <a class="button" href="{{ page.pdf | relative_url }}">Download full issue PDF</a>
+        {% endif %}
+        {% if page.citation_pdf %}
+        <a class="button button-secondary" href="{{ page.citation_pdf | relative_url }}">Citation / front matter PDF</a>
+        {% endif %}
+      </div>
+    </div>
+    <aside class="issue-meta">
+      <dl>
+        <dt>ISSN</dt>
+        <dd>{{ page.issn | default: "1085-6641" }}</dd>
+        <dt>Article types</dt>
+        <dd>{{ page.article_types | default: "Empirical, review, historical, and special features" }}</dd>
+        <dt>Host</dt>
+        <dd>{{ page.host_org | default: "Journal of Psychological Inquiry" }}</dd>
+      </dl>
+    </aside>
+  </section>
+
+  <section class="card prose">
+    {{ content }}
+  </section>
+</article>

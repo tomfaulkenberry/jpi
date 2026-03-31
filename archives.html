@@ -1,0 +1,25 @@
+---
+title: Archives
+permalink: /archives/
+lead: Browse published issues in a simple, durable archive.
+layout: page
+---
+
+{% assign sorted_issues = site.issues | sort: 'year' | reverse %}
+
+<div class="archive-list">
+  {% for issue in sorted_issues %}
+  <article class="archive-card card">
+    <div>
+      <p class="eyebrow">{{ issue.season }} {{ issue.year }}</p>
+      <h2><a href="{{ issue.url | relative_url }}">{{ issue.title }}</a></h2>
+      <p>Volume {{ issue.volume }}, Number {{ issue.number }}</p>
+      <p>{{ issue.summary }}</p>
+    </div>
+    <div class="button-row archive-actions">
+      <a class="button" href="{{ issue.url | relative_url }}">Issue page</a>
+      <a class="button button-secondary" href="{{ issue.pdf | relative_url }}">PDF</a>
+    </div>
+  </article>
+  {% endfor %}
+</div>
