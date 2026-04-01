@@ -1,12 +1,15 @@
 :root {
-  --bg: #f6f3ee;
+  --bg: #f7f4fb;
   --paper: #ffffff;
-  --ink: #1f2430;
-  --muted: #5e6472;
-  --line: #d7d2ca;
-  --accent: #223a5e;
-  --accent-2: #8d6e3f;
-  --shadow: 0 10px 24px rgba(0, 0, 0, 0.05);
+  --ink: #1f1a24;
+  --muted: #6d6e71;
+  --line: #ddd5ea;
+
+  --accent: #4f2d7f;  /* Tarleton State Purple */
+  --accent-2: #8e7db3; /* Tarleton State lavender */
+  --accent-3: #00b1e1; /* Tarleton State teal, use sparingly */
+  
+  --shadow: 0 10px 24px rgba(79, 45, 127, 0.08);
   --radius: 16px;
   --max: 1080px;
 }
@@ -17,7 +20,7 @@ body {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
   color: var(--ink);
-  background: linear-gradient(to bottom, #fbfaf8 0%, var(--bg) 100%);
+  background: linear-gradient(to bottom, #fcfbfe 0%, var(--bg) 100%);
   line-height: 1.65;
 }
 
@@ -63,7 +66,7 @@ a:hover { text-decoration-thickness: 2px; }
   font-size: 0.82rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--accent-2);
+  color: var(--accent);
   margin: 0 0 0.35rem;
   font-weight: 700;
 }
@@ -168,6 +171,12 @@ h2, h3 {
 .button-secondary {
   background: transparent;
   color: var(--accent);
+  border: 1px solid var(--accent-2);
+}
+
+.button-secondary:hover {
+  background: #f2edf9;
+  text-decoration: none;
 }
 
 .checklist,
