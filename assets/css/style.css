@@ -96,13 +96,17 @@ a:hover { text-decoration-thickness: 2px; }
 .site-nav a {
   text-decoration: none;
   font-weight: 700;
+  color: var(--accent);
+}
+
+.site-nav a:hover {
+    color:var(--accent-2);
 }
 
 .site-main {
   padding: 2rem 0 4rem;
 }
 
-.home-hero,
 .feature-grid,
 .home-columns,
 .issue-hero,
@@ -111,7 +115,22 @@ a:hover { text-decoration-thickness: 2px; }
   gap: 1.25rem;
 }
 
-.home-hero { grid-template-columns: 1.5fr 0.9fr; align-items: start; margin-bottom: 1.5rem; }
+.home-hero {
+    grid-template-columns: 1.5fr 0.9fr;
+    align-items: start;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(to right, #f4effa 0%, #ffffff 100%};
+    padding: 1.4rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.current-issue {
+    border-left: 5px solid var(--accent);
+}
+
+
 .feature-grid { grid-template-columns: repeat(3, 1fr); margin-bottom: 1.5rem; }
 .home-columns { grid-template-columns: 1fr 1fr; margin-top: 1.5rem; }
 .issue-hero { grid-template-columns: 1.6fr 0.8fr; }
@@ -188,7 +207,7 @@ h2, h3 {
 .prose li { max-width: 72ch; }
 .prose code,
 code {
-  background: #f1efe9;
+  background: #f1ecf8;
   padding: 0.15rem 0.35rem;
   border-radius: 5px;
   font-size: 0.95em;
