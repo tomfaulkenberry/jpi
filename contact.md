@@ -1,19 +1,17 @@
 ---
 title: Contact
+layout: page
 permalink: /contact/
-lead: Provide a stable editorial-office contact point for authors, reviewers, and readers.
 ---
 
-## Editorial office
+## Contact
+
+For general inquiries about the *Journal of Psychological Inquiry*, please contact the managing editor.
 
 **Managing Editor**  
-Replace with name  
-Replace with institutional affiliation  
-Replace with city, state if desired
+Ken Sobel  
+University of Central Arkansas
 
-**Email**  
-replace-this-email@example.edu
+For manuscript submissions, please use the journal’s online submission portal.
 
-## Best practice
-
-Use a role-based editorial inbox if possible. That makes transitions between editors easier and keeps the public contact point stable.
+For questions about submissions, editorial matters, or journal operations, please use the current contact information maintained by the journal and sponsoring organization.

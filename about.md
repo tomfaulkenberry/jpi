@@ -1,21 +1,21 @@
 ---
 title: About
+layout: page
 permalink: /about/
-lead: Learn the purpose, scope, and editorial character of the journal.
 ---
 
-The **Journal of Psychological Inquiry** is presented here as a straightforward, static journal site for undergraduate scholarship in psychology. The structure is designed to feel more like a professional publication and less like a generic departmental website.
+## About the Journal
 
-## Suggested content areas
+The *Journal of Psychological Inquiry* is a refereed journal devoted to undergraduate scholarship in psychology. The journal provides a professional venue for student work and supports the development of research, writing, and scholarly communication across a range of psychological topics.
 
-You can adapt this page to include:
+## Scope
 
-- the journal's mission and scope
-- sponsoring organization or institutional home
-- intended readership
-- history of the journal
-- expectations for undergraduate authorship and mentorship
+JPI welcomes work from multiple areas of psychology and publishes several kinds of articles, including empirical studies, literature reviews, historical articles, and selected special-feature formats.
 
-## Why this structure works well
+## History
 
-This site is intentionally modest. A journal benefits from consistency, clear navigation, and a reliable archive more than from complex web features. A simple static build also reduces maintenance overhead and long-term fragility.
+The journal grew out of discussions in the mid-1990s connected to Great Plains undergraduate psychology activity. Early editorials describe a multi-year planning process that led to the launch of the first issue and established the journal as a venue for high-quality undergraduate publication.
+
+## Sponsoring Organization
+
+The journal is published under the auspices of the Great Plains Behavioral Research Association.

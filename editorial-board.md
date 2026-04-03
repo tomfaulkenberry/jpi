@@ -1,24 +1,39 @@
 ---
 title: Editorial Board
+layout: page
 permalink: /editorial-board/
-lead: List the managing editor, editorial leadership, and board members in a clean, scannable format.
 ---
 
-## Editorial leadership
+## Editorial Board
 
-- **Managing Editor** — Replace with current managing editor name, affiliation, and email
-- **Editor / Senior Editor** — Replace as needed
-- **Associate Editors** — Add current roles and institutional affiliations
+### Founding Editor
+Mark E. Ware  
+Creighton University
 
-## Editorial board
+### Managing Editor
+Ken Sobel  
+University of Central Arkansas
 
-Organize members by role, specialty area, or alphabetical listing.
+### Graduate Assistant
+Katelyn Pack  
+University of Central Arkansas
 
-- Name — Institution
-- Name — Institution
-- Name — Institution
-- Name — Institution
-
-## Reviewers and acknowledgments
-
-If the journal publicly thanks reviewers, student assistants, or sponsoring organizations, this page is also a natural place to do that.
+### Associate Editors
+Preston Bost — Wabash College  
+Drew A. Curtis — Angelo State University  
+Thomas J. Faulkenberry — Tarleton State University  
+Wind Goodfriend — Buena Vista University  
+Raymond Green — Texas A&M Commerce  
+J.T. Lacy — Fort Hays State University  
+Robyn Long — Baker University  
+Yeseul Nam — University of Central Arkansas  
+Donna Nelson — Winthrop University  
+Anna Park — University of Central Arkansas  
+Jennifer Peszka — Hendrix College  
+Mollie Price-Blackshear — University of Central Arkansas  
+Darren Ritzer — Winthrop University  
+Merry Sleigh — Winthrop University  
+Tammy Sonnentag — Xavier University  
+Amanda R. Stevens — Tarleton State University  
+Grace Sullivan — Colorado Mesa University  
+James Wages — University of Central Arkansas

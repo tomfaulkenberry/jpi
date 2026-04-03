@@ -1,24 +1,22 @@
 ---
-title: Policies & Ethics
+title: Policies
+layout: page
 permalink: /policies/
-lead: A dedicated place for publication ethics, originality standards, and editorial expectations.
 ---
 
-## Core policy areas to include
+## Editorial Policies
 
-- originality and prior publication
-- authorship criteria
-- faculty sponsorship or mentorship requirements
-- plagiarism screening
-- conflicts of interest
-- reviewer confidentiality
-- correction and retraction practices
-- artificial intelligence use disclosures, if adopted
+### Originality
+JPI accepts original manuscripts only. Submissions should not have been previously published or accepted elsewhere.
 
-## Publication ethics
+### Authorship
+Undergraduate students must serve as the primary author on submitted manuscripts. Graduate students and faculty may appear as co-authors when their role is primarily instructional or mentoring in nature.
 
-State plainly that submitted work must be original, accurately represented, and appropriately documented. If the journal follows a recognized ethics framework, cite it here.
+### Style and Presentation
+All manuscripts should conform to the latest edition of the *APA Publication Manual* and should be carefully reviewed for scholarly accuracy, grammar, and overall presentation before submission.
 
-## Accessibility and record integrity
+### Faculty Sponsorship
+Each submission should include a sponsoring statement from a faculty supervisor indicating that the manuscript has been reviewed for content, method, APA style, ethics, grammar, and presentation.
 
-A static journal site is also a chance to improve clarity for readers. Consider making PDFs consistently named, date-stamped, and paired with issue landing pages that contain citation information.
+### Revisions
+Authors are responsible for completing requested revisions and resubmitting manuscripts in a timely manner. Some manuscripts may require more than one round of revision before acceptance.
