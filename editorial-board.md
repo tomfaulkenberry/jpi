@@ -7,23 +7,20 @@ permalink: /editorial-board/
 ## Editorial Board
 
 ### Founding Editor
-Mark E. Ware  
-Creighton University
+Mark E. Ware - Creighton University
 
 ### Managing Editor
-Ken Sobel  
-University of Central Arkansas
+Ken Sobel - University of Central Arkansas
 
 ### Graduate Assistant
-Katelyn Pack  
-University of Central Arkansas
+Katelyn Pack - University of Central Arkansas
 
 ### Associate Editors
 Preston Bost — Wabash College  
 Drew A. Curtis — Angelo State University  
 Thomas J. Faulkenberry — Tarleton State University  
 Wind Goodfriend — Buena Vista University  
-Raymond Green — Texas A&M Commerce  
+Raymond Green — East Texas A&M University  
 J.T. Lacy — Fort Hays State University  
 Robyn Long — Baker University  
 Yeseul Nam — University of Central Arkansas  
